@@ -13,9 +13,9 @@ const createProgress = () => {
 }
 
 const viewportHandler = () => {
-  let curr = Math.min(getProgress(), 100);
+  let curr = getProgress();
   if (curr % 5 == 0 && curr != last) {
-    progress.style.width = getProgress() + '%';
+    progress.style.width = Math.min(getProgress(), 100) + '%';
     last = curr;
   }
 }

@@ -2,7 +2,7 @@
 <section class="page-header border-blk-sm">
   <div class="page-header-content">
     <h1 class="page-title">{{ .Site.Params.HomePage.Title }}</h1>
-    {{- if (and .Site.Params.HomePage.description .IsHome) }}
+    {{- if .Site.Params.HomePage.description }}
     <div class="page-description">
       {{ .Site.Params.HomePage.description }}
     </div>
