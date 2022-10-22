@@ -1,9 +1,6 @@
 let last = 0;
 
-const getProgress = () => {
-  let pct = Math.ceil((window.visualViewport.pageTop / (document.getElementById('main').offsetHeight - window.visualViewport.height)) * 100);
-  return pct - (pct % 5); 
-}
+const getProgress = () => Math.ceil((window.visualViewport.pageTop / (document.getElementById('main').offsetHeight - window.visualViewport.height)) * 100);
 
 const createProgress = () => {
   let p = document.createElement('div');
@@ -20,8 +17,7 @@ const viewportHandler = () => {
   }
 }
 
-let nav = document.getElementById('header');
 let progress = createProgress();
-nav.appendChild(progress);
+document.getElementById('header').appendChild(progress);
 
 window.addEventListener('scroll', viewportHandler);

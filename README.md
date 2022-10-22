@@ -1,8 +1,8 @@
 # oso <sup><sup><sub>v0.1</sub></sup></sup>
 
-A simple Hugo theme inspired by the popular iOS note-taking app, Bear.
+A small Hugo theme with color themes inspired by the popular iOS note-taking app, Bear.
 
-Oso strives to be beautiful, fast, and accessible. All with minimal JS! 
+Oso strives to be beautiful, fast, and accessible. All with optional, minimal Javascript.
 
 ## Lighthouse
 
