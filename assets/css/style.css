@@ -241,10 +241,15 @@ main {
 .page-header-avatar {
   margin-top: 0;
   grid-area: avatar;
+  justify-self: center;
   padding-right: 8px;
 }
 .page-description {
   padding: 12px 0;
+}
+
+.avatar {
+  border-radius: 150px;
 }
 
 @media (max-width: 720px) {
