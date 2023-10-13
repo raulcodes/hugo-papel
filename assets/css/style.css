@@ -89,7 +89,7 @@ meter {
 
 :root {
   --gap: 28px;
-  --content-gap: 40px;
+  --content-gap: 20px;
   --nav-width: 1024px;
   --main-width: 640px;
   --header-height: 60px;
@@ -357,6 +357,9 @@ main {
   bottom: 0;
 }
 /* --- Post single --- */
+.post-title {
+  font-size: 22px;
+}
 .post-header {
   margin-top: 24px;
   margin-bottom: var(--content-gap);
@@ -379,7 +382,14 @@ main {
   background: var(--tertiary);
 }
 .post-content {
+  padding-top: 16px;
   max-width: 100%;
+}
+.post-content em {
+  font-style: italic;
+}
+.post-content strong {
+  font-weight: 600;
 }
 .post-content h1 {
   margin-top: 40px;
@@ -422,6 +432,10 @@ main {
 .post-content del {
   text-decoration: none;
   background: linear-gradient(to right, var(--primary) 100%, transparent 0) 0 50% / 1px 1px repeat-x;
+}
+.post-content p {
+  text-indent: 12px;
+  line-height: 1.825em;
 }
 .post-content p,
 .post-content ul,
