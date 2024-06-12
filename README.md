@@ -6,7 +6,7 @@ Oso strives to be beautiful, fast, and accessible. All with optional, minimal Ja
 
 ## Lighthouse
 
-[My personal blog](raulcodes.com) uses this theme and I aim to consistently score as highly as I can on Google's Lighthouse tool.
+[My personal blog](https://raulcodes.com) uses this theme and I aim to consistently score as highly as I can on Google's Lighthouse tool.
 
 Report from May 4, 2021:
 
